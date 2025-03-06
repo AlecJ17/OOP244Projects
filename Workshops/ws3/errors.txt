@@ -1,0 +1,37 @@
+Icecream.cpp: In member function ‘void seneca::Icecream::getOrder()’:
+Icecream.cpp:30:28: error: ‘numeric_limits’ was not declared in this scope
+                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                            ^
+Icecream.cpp:30:53: error: expected primary-expression before ‘>’ token
+                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                                     ^
+Icecream.cpp:30:60: error: no matching function for call to ‘max()’
+                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                                            ^
+Icecream.cpp:30:60: note: candidates are:
+In file included from /usr/include/c++/4.8.2/bits/char_traits.h:39:0,
+                 from /usr/include/c++/4.8.2/ios:40,
+                 from /usr/include/c++/4.8.2/ostream:38,
+                 from /usr/include/c++/4.8.2/iostream:39,
+                 from Icecream.h:19,
+                 from Icecream.cpp:16:
+/usr/include/c++/4.8.2/bits/stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+/usr/include/c++/4.8.2/bits/stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+Icecream.cpp:30:60: note:   candidate expects 2 arguments, 0 provided
+                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                                            ^
+In file included from /usr/include/c++/4.8.2/bits/char_traits.h:39:0,
+                 from /usr/include/c++/4.8.2/ios:40,
+                 from /usr/include/c++/4.8.2/ostream:38,
+                 from /usr/include/c++/4.8.2/iostream:39,
+                 from Icecream.h:19,
+                 from Icecream.cpp:16:
+/usr/include/c++/4.8.2/bits/stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+/usr/include/c++/4.8.2/bits/stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+Icecream.cpp:30:60: note:   candidate expects 3 arguments, 0 provided
+                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                                            ^
