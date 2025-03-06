@@ -1,0 +1,4 @@
+/tmp/ccubQcIg.o: In function `seneca::PreTriage::run(std::istream&)':
+/home/ajserrano2/OOP244/ms5/ms51/PreTriage.cpp:200: undefined reference to `seneca::PreTriage::reg()'
+/home/ajserrano2/OOP244/ms5/ms51/PreTriage.cpp:203: undefined reference to `seneca::PreTriage::admit(std::istream&)'
+collect2: error: ld returned 1 exit status
