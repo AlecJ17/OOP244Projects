@@ -1,0 +1,4 @@
+Hero.cpp: In constructor ‘seneca::Hero::Hero(const char*, seneca::Power*, int)’:
+Hero.cpp:30:50: error: ‘strncpy’ was not declared in this scope
+         strncpy(m_heroName, name, MAX_NAME_LENGTH);
+                                                  ^
