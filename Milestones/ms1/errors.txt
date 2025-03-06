@@ -1,0 +1,7 @@
+Menu.cpp: In member function ‘int& seneca::Menu::operator>>(int&)’:
+Menu.cpp:94:11: error: ‘class seneca::Utils’ has no member named ‘selectionCheck’
+         U.selectionCheck(selection, 0,m_noOfOptions);
+           ^
+Utils.cpp:49:57: error: no ‘int seneca::Utils::selectionCheck(int&, int, int)’ member function declared in class ‘seneca::Utils’
+     int Utils::selectionCheck(int& num, int min, int max)
+                                                         ^
