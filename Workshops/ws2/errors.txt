@@ -1,0 +1,3 @@
+Guest.cpp:21:1: error: expected ‘;’ before ‘namespace’
+ namespace seneca {
+ ^
