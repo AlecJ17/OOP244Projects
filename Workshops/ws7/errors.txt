@@ -1,0 +1,4 @@
+BankAccount.cpp: In constructor ‘seneca::BankAccount::BankAccount(const char*, seneca::Date, seneca::DepositInfo, double)’:
+BankAccount.cpp:42:39: error: ‘strncpy’ was not declared in this scope
+         strncpy(m_name, name, NAME_LEN);
+                                       ^
