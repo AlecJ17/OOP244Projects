@@ -1,0 +1,4 @@
+main_prof.cpp: In function ‘void deallocate(seneca::LibraryItem*)’:
+main_prof.cpp:75:12: warning: deleting object of polymorphic class type ‘seneca::LibraryItem’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     delete item;
+            ^
